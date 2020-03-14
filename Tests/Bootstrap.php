@@ -26,7 +26,7 @@ class Bootstrap extends AbstractBootstrap
      *
      * @return array
      */
-    public function getServiceProviders(): array
+    public function getServiceProviders(string $env): array
     {
         return [];
     }
